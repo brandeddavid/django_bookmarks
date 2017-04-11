@@ -16,7 +16,7 @@ def main_page(request):
 
           'Django Bookmarks',
           'Welcome to Django Bookmarks',
-          'You can store and share bookmarks!'
+          'Django Bookmarks allows you to store and share bookmarks!'
           )
 
     return HttpResponse(output)
